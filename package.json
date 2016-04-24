@@ -1,0 +1,31 @@
+{
+  "name": "hain-plugin-baidufanyi",
+  "version": "0.0.1",
+  "description": "A simple baidu translate plugin for Hain",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/as3long/hain-plugin-baidufanyi.git"
+  },
+  "author": "as3long",
+  "license": "MIT",
+  "keywords": [
+    "hain0"
+  ],
+  "bugs": {
+    "url": "https://github.com/as3long/hain-plugin-baidufanyi/issues"
+  },
+  "homepage": "https://github.com/as3long/hain-plugin-baidufanyi",
+  "dependencies": {
+    "co": "^4.6.0",
+    "got": "^6.3.0",
+    "md5": "^2.1.0"
+  },
+  "hain": {
+    "prefix": "/fanyi",
+    "usage": "/fanyi something",
+    "icon": "/logo.png",
+    "redirect": "/fanyi "
+  }
+}
